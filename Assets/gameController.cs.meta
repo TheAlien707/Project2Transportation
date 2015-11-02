@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 671c1906810a5a949827806d695307b6
-timeCreated: 1445222191
+timeCreated: 1445880150
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
@@ -8,6 +8,8 @@ MonoImporter:
   - squareTile: {fileID: 100868, guid: 6aa6f03250dd15547a1b7b5083dec82a, type: 2}
   - On: {fileID: 2100000, guid: d1a29266497b4e24f8d04d1125a5010a, type: 2}
   - Off: {fileID: 2100000, guid: 3a67802c0390d5440aef7d7fef32ff3c, type: 2}
+  - Active: {fileID: 2100000, guid: f3db3a0a1674424448f9ee159c50872e, type: 2}
+  - activeAirplane: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

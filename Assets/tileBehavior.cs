@@ -7,10 +7,11 @@ public class tileBehavior : MonoBehaviour {
     public Material On;
     public Material Off;
     gameController aGameController;
+    public int x, y;
 
     void OnMouseDown()
     {
-        aGameController.ProcessClickedTile(this.gameObject);
+        aGameController.ProcessClickedTile(this.gameObject, x, y);
     }
 
     //Use this for initialization

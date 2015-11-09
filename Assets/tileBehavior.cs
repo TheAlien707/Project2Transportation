@@ -14,6 +14,7 @@ public class tileBehavior : MonoBehaviour {
         aGameController.ProcessClickedTile(this.gameObject, x, y);
     }
 
+
     //Use this for initialization
     void Start () {
         aGameController = GameObject.Find("GameControllerObject").GetComponent<gameController>();
@@ -25,20 +26,21 @@ public class tileBehavior : MonoBehaviour {
 
     }
 
-    //original attempt w/o walkthrough; retain for contemplation later. 
-    //    void OnMouseDown ()
-    //    {
-    // when player clicks on tile, it remembers whether it's the first or second time it's been clicked
-    // causes multiple cubes to wind up red as each individual cube remembers its own bool
-    //        if (clickedOn == false)
-    //        {
-    //            clickedOn = true;
-    //            GetComponent<Renderer>().material = On;
-    //        }
-    //        else if (clickedOn == true)
-    //        {
-    //            clickedOn = false;
-    //            GetComponent<Renderer>().material = Off;
-    //        }
-    //    }
+    /*original attempt w/o walkthrough; retained for contemplation later. 
+        void OnMouseDown ()
+        {
+     when player clicks on tile, it remembers whether it's the first or second time it's been clicked
+     causes multiple cubes to wind up red as each individual cube remembers its own bool
+            if (clickedOn == false)
+            {
+                clickedOn = true;
+                GetComponent<Renderer>().material = On;
+            }
+            else if (clickedOn == true)
+            {
+                clickedOn = false;
+                GetComponent<Renderer>().material = Off;
+            }
+       }
+    */
 }
